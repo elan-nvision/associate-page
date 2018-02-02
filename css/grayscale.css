@@ -42,7 +42,16 @@ p {
 }*/
 
 .img-fluid {
-  border-radius: 30px;
+  border-radius: 12px;
+}
+
+.white-line {
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.contacts {
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -138,7 +147,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg1.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/bg1.jpg");
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
